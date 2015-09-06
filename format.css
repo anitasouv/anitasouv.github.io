@@ -1,8 +1,8 @@
 body
 { 
 	background-image: url("blue-background-images.jpg");
-	/*background-image: url("http://juliewight.com/wp-content/uploads/2013/11/blue-background-images.jpg");*/
-	/*background-color: #00BFFF;*/
+	background-image: url("http://juliewight.com/wp-content/uploads/2013/11/blue-background-images.jpg");
+	background-color: F8F8FF;
 	background-attachment: fixed;
 	padding: 50px;
 }
