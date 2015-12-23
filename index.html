@@ -1,103 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-
   <title>Anita Souv!</title>
-  <!-- Add some style to your site, see http://getbootstrap.com for details -->  
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-  <link rel="stylesheet" href="Appearance/format.css">
-  <link rel="stylesheet" href="Appearance/bootstrap.css">
-  <link rel="stylesheet" href="Appearance/bootstrap.min.css">
-  <link rel="stylesheet" href="Appearance/stylish-portfolio.css">
-
-
-
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-
+  <link rel="stylesheet" href="format.css">
 </head>
+
+
 <body>
-
-	<!-- navigation -->
- 	<a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle">
- 		<i class="fa fa-bars">
- 		</i>
- 	</a>
-
-    <a href="Glad_You_Came_Arden_Cho.mp3">
-        Music
-    </a>
-
-    <nav id="sidebar-wrapper">
-        <ul class="sidebar-nav">
-            <a id="menu-close" hreclass="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
-            <li class="sidebar-brand">
-                <a href="About.html"  onclick = $("#menu-close").click(); >Start Bootstrap</a>
-            </li>
-            <li>
-                <a href="About.html" onclick = $("#menu-close").click(); >Home</a>
-            </li>
-            <li>
-                <a href="About.html" onclick = $("#menu-close").click(); >About</a>
-            </li>
-            <li>
-                <a href="About.html" onclick = $("#menu-close").click(); >Services</a>
-            </li>
-            <li>
-                <a href="About.html" onclick = $("#menu-close").click(); >Portfolio</a>
-            </li>
-            <li>
-                <a href="About.html" onclick = $("#menu-close").click(); >Contact</a>
-            </li>
-        </ul>
-    </nav>
-
     <!-- Footer -->
     <footer>
         <div class="container text-center">
             <p>&copy; 2015 Built with Bootstrap. Hosted on Github Pages.</p>
         </div>
     </footer>
-
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-    <!-- Custom Theme JavaScript -->
-    <script>
-    // Closes the sidebar menu
-    $("#menu-close").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
-
-    // Opens the sidebar menu
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#sidebar-wrapper").toggleClass("active");
-    });
-
-    // Scrolls to the selected menu item on the page
-    $(function() {
-        $('a[href*=#]:not([href=#])').click(function() {
-            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
-
-                var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                if (target.length) {
-                    $('html,body').animate({
-                        scrollTop: target.offset().top
-                    }, 1000);
-                    return false;
-                }
-            }
-        });
-    });
-    </script>
-
-
 </body>
+
 </html>
