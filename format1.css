@@ -1,0 +1,93 @@
+body 
+{
+    background-color: white;
+    margin-top: 70px;
+}
+
+h1
+{
+    background-image: url("paint-splatter-wallpaper-hd-amazing-p15100cw.jpg") no-repeat center center fixed;
+    background-color: transparent;
+    text-align: center;
+}
+
+footer
+{
+    background-color: #333;
+    position: absolute;
+    width: 100%;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    overflow: hidden;
+}
+
+ul
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+    
+li
+{
+    float: left;
+}
+
+li a
+{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:active
+{
+    background-color: #555;
+    
+}
+
+li a:hover 
+{
+    background-color: #111;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(100%,rgba(255,255,255,0.8)));
+}
+
+#round
+{
+    border-radius: 15px 50px;
+    border: 3px solid #333;
+    padding: 200px; 
+    width: 200px;
+    height: 150px; 
+    margin-left: 10px;
+}
+
+ul:last-child
+{
+    float: right;
+}
+
+#test
+{
+    -webkit-box-shadow: 40px 50px 15px undefinedpx rgba(8,8,8,.5);
+    box-shadow: 40px 50px 15px undefinedpx rgba(8,8,8,.5);
+}
+
+#right
+{
+    float: right;
+}
+
+#left
+{
+    float: left;
+}
