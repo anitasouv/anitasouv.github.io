@@ -1,7 +1,22 @@
+/*for Amatic font (from --> http://www.cssfontstack.com/Amatic-SC)*/
+@import url(http://fonts.googleapis.com/css?family=Amatic+SC:400,700);
+
 body 
 {
+    /*background picture(wrinkled paper) from --> http://www.psddots.com/light-white-wrinkled-paper-textures/*/
+    background-image: url(light_white_wrinkle_paper_texture2.jpg);
+    background-attachment: absolute;
     background-color: white;
     margin-top: 70px;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+
+/* for Amatic font*/
+    font-family: 'Amatic SC';
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
 }
 
 h1
@@ -9,6 +24,7 @@ h1
     background-image: url("paint-splatter-wallpaper-hd-amazing-p15100cw.jpg") no-repeat center center fixed;
     background-color: transparent;
     text-align: center;
+
 }
 
 footer
@@ -16,10 +32,13 @@ footer
     background-color: #333;
     position: absolute;
     width: 100%;
-    color: white;
-    padding: 10px;
-    margin: 10px;
-    overflow: hidden;
+    color: lightgray;
+    border-top: 10px;
+    margin-right: 0;
+    margin-left: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+
 }
 
 ul
@@ -51,8 +70,7 @@ li a
 
 li a:active
 {
-    background-color: #555;
-    
+    background-color: #555; 
 }
 
 li a:hover 
@@ -63,23 +81,13 @@ li a:hover
 
 #round
 {
+    background-color: lightgray;
     border-radius: 15px 50px;
     border: 3px solid #333;
-    padding: 200px; 
-    width: 200px;
-    height: 150px; 
+    padding: 30px; 
+    width: 400px;
+    height: 450px; 
     margin-left: 10px;
-}
-
-ul:last-child
-{
-    float: right;
-}
-
-#test
-{
-    -webkit-box-shadow: 40px 50px 15px undefinedpx rgba(8,8,8,.5);
-    box-shadow: 40px 50px 15px undefinedpx rgba(8,8,8,.5);
 }
 
 #right
