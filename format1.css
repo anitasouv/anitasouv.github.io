@@ -1,6 +1,11 @@
 /*for Amatic font (from --> http://www.cssfontstack.com/Amatic-SC)*/
 @import url(http://fonts.googleapis.com/css?family=Amatic+SC);
 
+@font-face {
+    font-family: amaticSC;
+    src: url(AmaticSC-Regular.woff);
+}
+
 body 
 {
     /*background picture(wrinkled paper) from --> http://www.psddots.com/light-white-wrinkled-paper-textures/*/
@@ -13,11 +18,12 @@ body
     margin-bottom: 0;
 
 /* for Amatic font*/
-    font-family: 'Amatic SC';
+    font-family: amaticSC;
     font-style: normal;
     font-variant: normal;
-    font-weight: 700;
+    font-weight: 1000;
 }
+
 
 h1
 {
